@@ -1,10 +1,10 @@
 # hair-colorizing
 Application to recolor hair with chosen color
 
-### Key words:
+### Key words
 Computer vision, convolutional neural networks, UNet, image processing
 
-### Stack:
+### Stack
 Python, Keras, OpenCV
 
 
@@ -15,10 +15,15 @@ Python, Keras, OpenCV
 
 Для запуска использовать скрипт main_color_invertor.py. 
 
-Примеры запуска скрипта:
-main_color_invertor.py -t video -c ginger - запуск распознавания из видеопотока от вебкамеры (ключ -t video) и перекраски волос в рыжий оттенок (-c ginger)
-или
-main_color_invertor.py -t image -i Img_01.png -c ginger - запуск распознавания на отдельном изображении (ключ -t image и -i Img_01.png - путь к файлу изображения)  и перекраски волос в рыжий оттенок (-c ginger)
+Примеры запуска скрипта:  
+```
+main_color_invertor.py -t video -c ginger
+```
+где `-c` - флаг для выбора оттенка волос, `-t video` - запуск распознавания из видеопотока от вебкамеры.
+```
+main_color_invertor.py -t image -i Img_01.png -c ginger
+```
+где `-t image` - запуск распознования на отдельном изображении, `-i Img_01.png` - путь к файлу изображения.
 
 В качестве цветов для перекраски волос доступны:
 - blonde
@@ -27,23 +32,23 @@ main_color_invertor.py -t image -i Img_01.png -c ginger - запуск расп�
 - purple
 - red
 
-Примеры работы:
+### Примеры работы
 
-Red coloring
+#### Red coloring
 
 <img src="/Examples/Img_01.png" width="300" height="200">   <img src="/Examples/Img_01_red.png" width="300" height="200">
 
 
-Brunette coloring
+#### Brunette coloring
 
 <img src="/Examples/Img_02.png" width="250" height="250">   <img src="/Examples/Img_02_brunette.png" width="250" height="250">
 
 
-Purple coloring
+#### Purple coloring
 
 <img src="/Examples/Img_03.png" width="250" height="250">   <img src="/Examples/Img_03_purple.png" width="250" height="250">
 
 
-Ginger coloring
+#### Ginger coloring
 
 <img src="/Examples/Img_04.png" width="250" height="250">   <img src="/Examples/Img_04_ginger.jpg" width="250" height="250">
