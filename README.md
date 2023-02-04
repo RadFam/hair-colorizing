@@ -26,3 +26,24 @@ main_color_invertor.py -t image -i Img_01.png -c ginger - запуск расп�
 - brunette
 - purple
 - red
+
+Примеры работы:
+
+Red coloring
+
+<img src="/Examples/Img_01.png" width="300" height="200">   <img src="/Examples/Img_01_red.png" width="300" height="200">
+
+
+Brunette coloring
+
+<img src="/Examples/Img_02.png" width="250" height="250">   <img src="/Examples/Img_02_brunette.png" width="250" height="250">
+
+
+Purple coloring
+
+<img src="/Examples/Img_03.png" width="250" height="250">   <img src="/Examples/Img_03_purple.png" width="250" height="250">
+
+
+Ginger coloring
+
+<img src="/Examples/Img_04.png" width="250" height="250">   <img src="/Examples/Img_04_ginger.jpg" width="250" height="250">
